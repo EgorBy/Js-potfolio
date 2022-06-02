@@ -75,3 +75,7 @@ img {
     border-color: #2f2a2d;
     color: #2f2a2d;
 }
+
+.hidden {
+    display: none;
+}
