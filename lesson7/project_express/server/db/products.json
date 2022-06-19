@@ -1,0 +1,30 @@
+[
+  {
+    "id_product": 1,
+    "product_name": "HP ProBook",
+    "price": 1790,
+    "imgProduct": "./img/products/1.jpg",
+    "imgCart": "./img/cart/1.jpg"
+  },
+  {
+    "id_product": 2,
+    "product_name": "HONOR MagicBook",
+    "price": 2860,
+    "imgProduct": "./img/products/2.jpg",
+    "imgCart": "./img/cart/2.jpg"
+  },
+  {
+    "id_product": 3,
+    "product_name": "ASUS VivoBook",
+    "price": 2190,
+    "imgProduct": "./img/products/3.jpg",
+    "imgCart": "./img/cart/3.jpg"
+  },
+  {
+    "id_product": 4,
+    "product_name": "HP Pavilion",
+    "price": 1900,
+    "imgProduct": "./img/products/4.jpg",
+    "imgCart": "./img/cart/4.jpg"
+  }
+]
