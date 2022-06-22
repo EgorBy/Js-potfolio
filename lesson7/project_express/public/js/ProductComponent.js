@@ -21,7 +21,7 @@ Vue.component('products', {
                 }
             });
     },
-    template: `<div class="products">
+    template: `<div class="products container">
             <product 
             v-for="product of filtered" 
             :key="product.id_product"
@@ -31,14 +31,16 @@ Vue.component('products', {
 });
 Vue.component('product', {
     props: ['product', 'img'],
-    template: `<div class="product-item" >
-                <div class="img-container" >
-                    <img :src="img" :alt="product.product_name">
-                </div>
-                <div class="desc">
-                    <h3 class="price-name text-white pt-3">{{ product.product_name }}</h3>
-                    <div class="price d-flex justify-content-center align-items-end"><p>{{ product.price }} руб.</p></div>
-                    <button class="buy-btn ml-3" @click="$root.$refs.cart.addProduct(product)">Купить</button>
+    template: `<div class="card" >
+                 <img class="card-img-top" :src="img" :alt="product.product_name">
+                <div class="card-body">
+                    <h3 class="card-title">{{ product.product_name }}</h3>
+                    <p class="card-text"> {{product.productInfo }}</p>
+                    <div class="price d-flex justify-content-start align-items-end"><p>{{ product.price }} $</p></div>
+                    <div class="cardFooter">
+                    <button class="buy-btn btn btn-primary" @click="$root.$refs.cart.addProduct(product)">BUY</button>
+                    <a href="product.html" class="btn btn-primary">More details...</a>
+                    </div>
                 </div>
             </div>`
 })

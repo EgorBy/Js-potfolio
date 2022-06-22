@@ -1,0 +1,171 @@
+@import "_variables";
+
+.slider {
+    min-height: 230px;
+    border: 1px solid #eaeaea;
+    background: white;
+    position: relative;
+    margin-bottom: 60px;
+
+    .slideImage {
+        padding-top: 29px;
+        max-width: 100%;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 29px;
+    }
+
+    .sliderLeftArrow,
+    .sliderRightArrow {
+        width: 47px;
+        height: 47px;
+        background-color: rgba(42, 42, 42, 0.15);
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: absolute;
+        top: calc(50% - 47px / 2);
+        cursor: pointer;
+    }
+
+    .sliderLeftArrow {
+        left: 0%;
+        background-image: url(#{$imagesPath}/sliderleftArrow.svg);
+
+        &:hover {
+            background-image: url(#{$imagesPath}/sliderLeftArrowHover.svg);
+        }
+    }
+
+    .sliderRightArrow {
+        right: 0%;
+        background-image: url(#{$imagesPath}/sliderRightArrow.svg);
+
+        &:hover {
+            background-image: url(#{$imagesPath}/sliderRightArrowHover.svg);
+        }
+    }
+}
+
+.collection {
+    padding: 64px 24px;
+    border: 1px solid #eaeaea;
+    background: white;
+    margin-bottom: 64px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 129px;
+    }
+
+    @media (min-width: 1600px) {
+        position: relative;
+        margin-top: -64px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .collectionTitle {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: $majorColor;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+
+    .collectionDividerRed {
+        height: 3px;
+        width: 63px;
+        background: $majorColor;
+        margin: 0 auto 12px;
+    }
+
+    .collectionDesc {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        color: #4d4d4d;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .collectionText {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 143.1%;
+        text-align: center;
+        color: #5e5e5e;
+        margin-bottom: 32px;
+        max-width: 326px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @media (min-width: 768px) {
+            max-width: 555px;
+        }
+    }
+
+    .collectionPrice {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 130%;
+        color: $majorColor;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .collectionDividewGrey {
+        height: 1px;
+        width: 175px;
+        margin: 0 auto 49px;
+        background: #eaeaea;
+
+        @media (min-width: 768px) {
+            width: 642px;
+        }
+    }
+
+    .collectionSizes {
+        font-size: 10px;
+        line-height: 12px;
+        color: #6f6e6e;
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 304px;
+        margin-bottom: 64px;
+
+        @media (min-width: 768px) {
+            font-size: 14px;
+            line-height: 17px;
+            max-width: 373px;
+        }
+
+        img {
+            margin-left: 3px;
+
+            @media (min-width: 375px) {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    button {
+        background: none;
+        border: 1px solid $majorColor;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: $majorColor;
+        display: flex;
+        align-items: center;
+        padding: 15px 24px;
+        margin: 0 auto;
+
+        img {
+            margin-right: 23px;
+        }
+    }
+}   

@@ -15,6 +15,7 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleProductPage.css">
     <link rel="stylesheet" href="css/style_bootstrap.css">
 
 </head>
@@ -33,95 +34,44 @@
 
         <div class="notebooks">
             <div class="container">
-                <h1>NOTEBOOKS</h1>
+                <h1>PRODUCT CARD</h1>
                 <nav>
                     <a href="#">HOME</a>
                     <span>/</span>
                     <a href="index.html">NOTEBOOKS</a>
+                    <span>/</span>
+                    <a href="product.html">PRODUCT CARD</a>
                 </nav>
             </div>
         </div>
 
-        <div class="filters">
-            <div class="container">
-                <div class="filtersLeft">
-                    <div class="filterClick">
-                        <span class="filterLabel">FILTER</span>
-                        <img class="filterIcon" src="img/filter.svg" alt="">
-                    </div>
-                    <div class="filterPopup hidden">
-                        <nav class="filterCategory">
-                            <div class="filterCategoryHeader">Brand</div>
-                            <div class="hidden">
-                                <a href="#">Lenovo</a>
-                                <a href="#">Asus</a>
-                                <a href="#">HP</a>
-                                <a href="#">Apple</a>
-                                <a href="#">Dell</a>
-                                <a href="#">Acer</a>
-                                <a href="#">Honor</a>
-                                <a href="#">MSI</a>
-                                <a href="#">Huawei</a>
-                                <a href="#">Xiaomi</a>
-                            </div>
-                        </nav>
-                        <nav class="filterCategory">
-                            <div class="filterCategoryHeader">Type</div>
-                            <div class="hidden">
-                                <a href="#">Classic</a>
-                                <a href="#">Gaming Laptop</a>
-                                <a href="#">Ultrabook</a>
-                                <a href="#">Netbook</a>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-                <div class="filtersRight">
-                    <div class="filterSize">
-                        <div class="filterSizeWrap">
-                            MONITOR SIZE
-                            <img src="img/filterArrow.svg" alt="">
-                        </div>
-                        <div class="filterSizes hidden">
-                            <div>
-                                <input type="checkbox"> closer then 13"
-                            </div>
-                            <div>
-                                <input type="checkbox"> 13"-14"
-                            </div>
-                            <div>
-                                <input type="checkbox"> 15"-16"
-                            </div>
-                            <div>
-                                <input type="checkbox"> 16"-17"
-                            </div>
-                        </div>
-                    </div>
-                    <div class="filterPrice">
-                        PRICE
-                        <img src="img/filterArrow.svg" alt="">
-                    </div>
-                </div>
-            </div>
+        <div class="slider">
+            <div class="sliderLeftArrow"></div>
+            <img src="img/products/1.jpg" class="slideImage" alt="">
+            <div class="sliderRightArrow"></div>
         </div>
 
-        <main>
-            <products ref="products"></products>
-        </main>
+        <div class="container collection">
+            <div class="collectionInside">
+                <h2 class="collectionTitle">Notebook</h2>
+                <div class="collectionDividerRed"></div>
+                <div class="collectionDesc">ASUS VivoBook Flip 14</div>
+                <div class="collectionText">
+                    15.6 1920 x 1080 IPS, 60 Гц, несенсорный, AMD 3020e 1200 МГц, 8 ГБ DDR4, SSD 256 ГБ, видеокарта
+                    встроенная, без ОС, цвет крышки темно-серый
+                </div>
+                <div class="collectionPrice">$750</div>
+                <div class="collectionDividewGrey"></div>
 
-        <div class="pagination">
-            <a href="#">
-                <img src="img/chevronLeft.svg" alt="">
-            </a>
-            <a href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-            <a href="#">5</a>
-            <a href="#">6.....20</a>
-            <a href="#">
-                <img src="img/chevronRight.svg" alt="">
-            </a>
+                <button>
+                    <img src="img/product/productTrash.svg" alt="">
+                    Add to Cart
+                </button>
+            </div>
+            <!-- <main>
+            <products ref="products"></products>
+        </main> -->
+
         </div>
 
         <div class="footer">

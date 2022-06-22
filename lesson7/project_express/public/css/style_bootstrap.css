@@ -1,0 +1,21 @@
+.navbar {
+    padding: 0px 0px;
+}
+
+.btn {
+    background-color: white;
+    color: #f44336;
+    border-color: #f44336;
+}
+
+.btn:hover { 
+    color: white;
+    border-color: #f44336;
+    background-color: #f44336;
+}
+
+@media (max-width: 767px) {
+    .form-control {
+        width: 70%;
+    }
+}

@@ -1,30 +1,74 @@
 [
   {
     "id_product": 1,
-    "product_name": "HP ProBook",
-    "price": 1790,
+    "product_name": "HONOR MagicBook",
+    "price": 750,
     "imgProduct": "./img/products/1.jpg",
-    "imgCart": "./img/cart/1.jpg"
+    "imgCart": "./img/cart/1.jpg",
+    "productInfo": "15.6 1920 x 1080 IPS, 60 Гц, несенсорный, Intel Core i5 10210U 1600 МГц, 8 ГБ DDR4, SSD 512 ГБ, видеокарта встроенная, Windows 10, цвет крышки серый"
   },
   {
     "id_product": 2,
-    "product_name": "HONOR MagicBook",
-    "price": 2860,
+    "product_name": "ASUS VivoBook Flip 14",
+    "price": 800,
     "imgProduct": "./img/products/2.jpg",
-    "imgCart": "./img/cart/2.jpg"
+    "imgCart": "./img/cart/2.jpg",
+    "productInfo": "15.6 1920 x 1080 IPS, 60 Гц, несенсорный, AMD 3020e 1200 МГц, 8 ГБ DDR4, SSD 256 ГБ, видеокарта встроенная, без ОС, цвет крышки темно-серый"
   },
   {
     "id_product": 3,
-    "product_name": "ASUS VivoBook",
-    "price": 2190,
+    "product_name": "Lenovo IdeaPad 3",
+    "price": 830,
     "imgProduct": "./img/products/3.jpg",
-    "imgCart": "./img/cart/3.jpg"
+    "imgCart": "./img/cart/3.jpg",
+    "productInfo": "15.6 1920 x 1080 IPS, 60 Гц, несенсорный, AMD Ryzen 3 5300U 2600 МГц, 8 ГБ DDR4, SSD 256 ГБ, видеокарта встроенная, без ОС, цвет крышки серый"
   },
   {
     "id_product": 4,
-    "product_name": "HP Pavilion",
-    "price": 1900,
+    "product_name": "Lenovo Legion 5",
+    "price": 600,
     "imgProduct": "./img/products/4.jpg",
-    "imgCart": "./img/cart/4.jpg"
+    "imgCart": "./img/cart/4.jpg",
+    "productInfo": "15.6 1920 x 1080 IPS, 60 Гц, несенсорный, AMD Ryzen 3 5300U 2600 МГц, 8 ГБ DDR4, SSD 256 ГБ, видеокарта встроенная, без ОС, цвет крышки серый"
+  },
+  {
+    "id_product": 5,
+    "product_name": "MSI Thin GF63",
+    "price": 900,
+    "imgProduct": "./img/products/5.jpg",
+    "imgCart": "./img/cart/5.jpg",
+    "productInfo": "15.6 1920 x 1080 IPS, 60 Гц, несенсорный, AMD 3020e 1200 МГц, 8 ГБ DDR4, SSD 256 ГБ, видеокарта встроенная, без ОС, цвет крышки темно-серый"
+  },
+  {
+    "id_product": 6,
+    "product_name": "ASUS ROG Strix",
+    "price": 720,
+    "imgProduct": "./img/products/6.jpg",
+    "imgCart": "./img/cart/6.jpg",
+    "productInfo": "15.6 1920 x 1080 IPS, 144 Гц, несенсорный, AMD Ryzen 7 4800H 2900 МГц, 16 ГБ DDR4, SSD 512 ГБ, видеокарта NVIDIA GeForce GTX 1650 4 ГБ GDDR6, без ОС, цвет крышки темно-серый"
+  },
+  {
+    "id_product": 7,
+    "product_name": "ASUS E510MA-EJ593",
+    "price": 1300,
+    "imgProduct": "./img/products/7.jpg",
+    "imgCart": "./img/cart/7.jpg",
+    "productInfo": "15.6 1920 x 1080 IPS, 60 Гц, несенсорный, Intel Core i5 10210U 1600 МГц, 8 ГБ DDR4, SSD 512 ГБ, видеокарта встроенная, Windows 10, цвет крышки серый"
+  },
+  {
+    "id_product": 8,
+    "product_name": "HP Pavilion 15-eh1052ur",
+    "price": 755,
+    "imgProduct": "./img/products/8.jpg",
+    "imgCart": "./img/cart/8.jpg",
+    "productInfo": "15.6 1920 x 1080 IPS, 60 Гц, несенсорный, AMD Ryzen 3 5300U 2600 МГц, 8 ГБ DDR4, SSD 256 ГБ, видеокарта встроенная, без ОС, цвет крышки серый"
+  },
+  {
+    "id_product": 9,
+    "product_name": "Apple Macbook 13",
+    "price": 2500,
+    "imgProduct": "./img/products/9.jpg",
+    "imgCart": "./img/cart/9.jpg",
+    "productInfo": "15.6 1920 x 1080 IPS, 60 Гц, несенсорный, AMD 3020e 1200 МГц, 8 ГБ DDR4, SSD 256 ГБ, видеокарта встроенная, без ОС, цвет крышки темно-серый"
   }
 ]

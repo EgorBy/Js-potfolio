@@ -1,5 +1,24 @@
 {
     "amount": 46600,
     "countGoods": 4,
-    "contents": []
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 3,
+            "product_name": "Lenovo IdeaPad 3",
+            "price": 830,
+            "imgProduct": "./img/products/3.jpg",
+            "imgCart": "./img/cart/3.jpg",
+            "productInfo": "15.6 1920 x 1080 IPS, 60 Гц, несенсорный, AMD Ryzen 3 5300U 2600 МГц, 8 ГБ DDR4, SSD 256 ГБ, видеокарта встроенная, без ОС, цвет крышки серый"
+        },
+        {
+            "quantity": 1,
+            "id_product": 2,
+            "product_name": "ASUS VivoBook Flip 14",
+            "price": 800,
+            "imgProduct": "./img/products/2.jpg",
+            "imgCart": "./img/cart/2.jpg",
+            "productInfo": "15.6 1920 x 1080 IPS, 60 Гц, несенсорный, AMD 3020e 1200 МГц, 8 ГБ DDR4, SSD 256 ГБ, видеокарта встроенная, без ОС, цвет крышки темно-серый"
+        }
+    ]
 }
